@@ -10,9 +10,10 @@ function App() {
     <div id="demo">
       <motion.div
         id="box"
-        animate={{ x: x }}
+        animate={{ x, y, rotate }}
         transition={{
           duration: 0.3,
+          type: "spring",
         }}
       />
 
